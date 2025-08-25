@@ -1,0 +1,4 @@
+CREATE TABLE schema_migrations (
+    FileName VARCHAR(50) PRIMARY KEY,
+    applied_at DATETIME2(0) DEFAULT SYSUTCDATETIME()
+)

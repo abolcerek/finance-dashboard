@@ -30,3 +30,13 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# .gitignore
+.env
+.env.*        # .env.local, .env.development, etc.
+*.key
+*.pem
+*.pfx
+*.cert
+*.creds
+*.secrets.*

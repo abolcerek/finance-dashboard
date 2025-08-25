@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    id INT PRIMARY KEY IDENTITY,
+    email NVARCHAR(255) UNIQUE,
+    hashed_password NVARCHAR(255) NOT NULL,
+    created_at DATETIME DEFAULT GETDATE()
+);
